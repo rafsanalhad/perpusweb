@@ -3,7 +3,10 @@
 
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+        <div>
+            <h1 class="h3 mb-0 text-gray-800 font-weight-bold">Dashboard</h1>
+            <p class="text-muted mt-2">Ringkasan statistik perpustakaan Anda hari ini.</p>
+        </div>
 
 
     </div>
@@ -13,7 +16,7 @@
 
         <!-- Earnings (Monthly) Card Example -->
         <div class="col-xl-3 col-md-6 mb-4" id="anggota">
-            <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card border-left-primary shadow h-100 py-2 hover-lift">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
@@ -31,7 +34,7 @@
 
         <!-- Earnings (Monthly) Card Example -->
         <div class="col-xl-3 col-md-6 mb-4" id="buku">
-            <div class="card border-left-success shadow h-100 py-2">
+            <div class="card border-left-success shadow h-100 py-2 hover-lift">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
@@ -49,7 +52,7 @@
 
         <!-- Earnings (Monthly) Card Example -->
         <div class="col-xl-3 col-md-6 mb-4" id="pengadaan">
-            <div class="card border-left-info shadow h-100 py-2">
+            <div class="card border-left-info shadow h-100 py-2 hover-lift">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
@@ -71,7 +74,7 @@
 
         <!-- Pending Requests Card Example -->
         <div class="col-xl-3 col-md-6 mb-4" id="pinjam">
-            <div class="card border-left-warning shadow h-100 py-2">
+            <div class="card border-left-warning shadow h-100 py-2 hover-lift">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
@@ -94,8 +97,8 @@
         <div class="col-xl-12 col-lg-12">
             <div class="card shadow mb-4" id="grafik">
                 <!-- Card Header - Dropdown -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between bg-primary">
-                    <h6 class="m-0 font-weight-bold border-0 text-white">Statistik Peminjaman</h6>
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between bg-white border-bottom-0 pb-0 mt-2">
+                    <h6 class="m-0 font-weight-bold border-0 text-primary">Statistik Peminjaman</h6>
                     
                     <div class="col-lg-2">
                         <select name="tahun" id="tahun" class="form-control" onchange="filterTahun()">
@@ -122,8 +125,8 @@
 
     <div class="col-xl-6 col-md-6 mb-4" id="top3">
         <div class="card shadow mb-4">
-            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between bg-danger">
-                <h6 class="m-0 font-weight-bold border-0 text-white">Buku yang sering dipinjam</h6>
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between bg-white border-bottom-0 pb-0 mt-2">
+                <h6 class="m-0 font-weight-bold border-0 text-danger">Buku yang sering dipinjam</h6>
             </div>
             <div class="card-body">
                 <div class="row">
@@ -167,8 +170,8 @@
 
     <div class="col-xl-6 col-md-6 mb-4" id="top3anggota">
         <div class="card shadow mb-4">
-            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between bg-success">
-                <h6 class="m-0 font-weight-bold border-0 text-white">Anggota yang sering pinjam buku</h6>
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between bg-white border-bottom-0 pb-0 mt-2">
+                <h6 class="m-0 font-weight-bold border-0 text-success">Anggota yang sering pinjam buku</h6>
             </div>
             <div class="card-body">
                 <div class="row">

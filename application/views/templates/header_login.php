@@ -23,12 +23,13 @@
     <!-- Custom fonts for this template-->
     <link href="<?= base_url(); ?>assets/sbadmin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet"
         type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="<?= base_url(); ?>assets/sbadmin/css/sb-admin-biru.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>assets/css/custom-ui.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript">
@@ -44,7 +45,7 @@
 
 </head>
 
-<body class="bg-gradient-primary">
+<body class="bg-login-modern">
 
 <!-- Link BASE_URL buat file JS -->
 <input type="hidden" value="<?= base_url() ?>" id="baseurl">

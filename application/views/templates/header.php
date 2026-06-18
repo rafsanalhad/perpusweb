@@ -21,12 +21,13 @@
     <!-- Custom fonts for this template-->
     <link href="<?= base_url(); ?>assets/sbadmin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet"
         type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="<?= base_url(); ?>assets/sbadmin/css/sb-admin-biru.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>assets/css/custom-ui.css" rel="stylesheet">
     <link href="<?= base_url(); ?>assets/css/profileee.css" rel="stylesheet">
     <link href="<?= base_url(); ?>assets/css/all.css" rel="stylesheet">
     <link href="<?= base_url(); ?>assets/css/animate/animate.min.css" rel="stylesheet">
@@ -51,10 +52,10 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url() ?>home">
-                <div class="sidebar-brand-icon ">
-                    <img src="<?= base_url(); ?>assets/icon/books.png" width="50">
+                <div class="sidebar-brand-icon" style="background: white; border-radius: 50%; padding: 5px; display: flex; align-items: center; justify-content: center; width: 45px; height: 45px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                    <img src="<?= base_url(); ?>assets/icon/modern_logo.png" style="width: 150%; object-fit: cover;">
                 </div>
-                <div class="sidebar-brand-text mx-3 ">PEPRUS <sup><b>WEB</b></sup></div>
+                <div class="sidebar-brand-text mx-3">PERPUS <sup><b>WEB</b></sup></div>
                 
             </a>
 
